@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-    <groupId>com.github.spullara.redis</groupId>
+    <groupId>com.orange.redis-protocol</groupId>
     <artifactId>redis</artifactId>
     <version>0.8-SNAPSHOT</version>
   </parent>
@@ -14,7 +14,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
-      <version>4.0.10.Final</version>
+      <version>4.0.18.Final</version>
     </dependency>
     <dependency>
       <groupId>org.javassist</groupId>
@@ -22,9 +22,8 @@
       <version>3.18.0-GA</version>
     </dependency>
     <dependency>
-      <groupId>com.github.spullara.redis</groupId>
+      <groupId>com.orange.redis-protocol</groupId>
       <artifactId>util</artifactId>
-      <version>0.8-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>
