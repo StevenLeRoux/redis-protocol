@@ -67,7 +67,7 @@
     <connection>scm:git:git@github.com:gbrd/redis-protocol.git</connection>
     <developerConnection>scm:git:git@github.com:gbrd/redis-protocol.git</developerConnection>
     <url>scm:git:git@github.com:gbrd/redis-protocol.git</url>
-    <tag>master</tag>
+    <tag>orange-groupid</tag>
   </scm>
 
   <distributionManagement>
