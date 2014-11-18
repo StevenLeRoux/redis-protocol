@@ -3,7 +3,7 @@
 
   <groupId>com.orange.redis-protocol</groupId>
   <artifactId>redis</artifactId>
-  <version>0.12-SNAPSHOT</version>
+  <version>0.12</version>
   <modules>
     <module>util</module>
     <module>protocol</module>
@@ -68,7 +68,7 @@
     <connection>scm:git:git@github.com:gbrd/redis-protocol.git</connection>
     <developerConnection>scm:git:git@github.com:gbrd/redis-protocol.git</developerConnection>
     <url>scm:git:git@github.com:gbrd/redis-protocol.git</url>
-    <tag>orange-groupid</tag>
+    <tag>redis-0.12</tag>
   </scm>
 
   <distributionManagement>
@@ -82,27 +82,27 @@
       <dependency>
         <groupId>com.orange.redis-protocol</groupId>
         <artifactId>util</artifactId>
-        <version>0.12-SNAPSHOT</version>
+        <version>0.12</version>
       </dependency>
       <dependency>
         <groupId>com.orange.redis-protocol</groupId>
         <artifactId>protocol</artifactId>
-        <version>0.12-SNAPSHOT</version>
+        <version>0.12</version>
       </dependency>
       <dependency>
         <groupId>com.orange.redis-protocol</groupId>
         <artifactId>netty</artifactId>
-        <version>0.12-SNAPSHOT</version>
+        <version>0.12</version>
       </dependency>
       <dependency>
         <groupId>com.orange.redis-protocol</groupId>
         <artifactId>netty4</artifactId>
-        <version>0.12-SNAPSHOT</version>
+        <version>0.12</version>
       </dependency>
       <dependency>
         <groupId>com.orange.redis-protocol</groupId>
         <artifactId>client</artifactId>
-        <version>0.12-SNAPSHOT</version>
+        <version>0.12</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
